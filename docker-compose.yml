@@ -1,0 +1,20 @@
+db:
+    image: postgres
+
+web:
+    build: .
+    command: /bin/bash
+    volumes:
+        - ./src:/code
+    ports:
+        - "3000:3000"
+    links:
+        - db
+    volumes_from:
+        - box
+
+box:
+    container_name: box
+    image: busybox
+    volumes:
+        - /box
