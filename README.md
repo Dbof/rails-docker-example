@@ -14,3 +14,5 @@ To run the project, there are two methods. There is the Docker-only solution, an
 1. Simply run `docker-compose up -d`
 2. Run `docker-compose run web` to start an interactive shell
 3. Run `docker-compose down` to stop and remove the containers
+
+Also read: [Getting Started with Rails 5.x on Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails5)
