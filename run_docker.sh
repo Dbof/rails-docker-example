@@ -1,4 +1,4 @@
-id2=$(docker ps -q -f ancestor=rails)
+id2=$(docker ps -q -f ancestor=rails-docker)
 
 if [ -z "$id2" ]
 then
