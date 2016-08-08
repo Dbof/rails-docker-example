@@ -11,6 +11,7 @@ To run the project, do the following steps:
 
 
 After running the Docker container, you get an interactive shell where you can run typical Rails commands:
+
 1. `rails new`
 2. `rake`
 3. `rails server -b 0.0.0.0` to start the built-in server. The web application will be available on http://localhost:3000/.
