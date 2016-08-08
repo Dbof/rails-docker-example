@@ -1,8 +1,7 @@
-FROM rails:4.2.6
+FROM rails:5.0.0
 MAINTAINER Davide Bove <me@davidebove.com>
 
-ADD ./src /code
 WORKDIR /code
-ENV BUNDLE_PATH /box
+EXPOSE 3000
 
-CMD /bin/bash
+CMD ["/bin/bash"]
